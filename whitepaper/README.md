@@ -2,6 +2,10 @@
 
 This directory manages LIFEBANK CHAIN whitepaper materials, including chapter drafts, visual assets, references, and final release files.
 
+## Current Version
+
+- [LIFEBANK CHAIN Whitepaper V3.1 EG20](./lifebank-chain-whitepaper-v3.1-eg20.pdf)
+
 ## Directory Structure
 
 - `sections/`: Whitepaper chapter content.
@@ -21,4 +25,3 @@ This directory manages LIFEBANK CHAIN whitepaper materials, including chapter dr
 - Ecosystem Application Scenarios
 - Governance, Compliance, and Ethics
 - Roadmap
-
