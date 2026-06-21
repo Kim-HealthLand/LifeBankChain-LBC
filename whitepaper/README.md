@@ -4,6 +4,10 @@ This directory manages LIFEBANK CHAIN whitepaper materials, including chapter dr
 
 ## Current Version
 
+- [LIFEBANK CHAIN Whitepaper V3.1 EG21](./lifebank-chain-whitepaper-v3.1-eg21.pdf)
+
+## Previous Versions
+
 - [LIFEBANK CHAIN Whitepaper V3.1 EG20](./lifebank-chain-whitepaper-v3.1-eg20.pdf)
 
 ## Directory Structure
