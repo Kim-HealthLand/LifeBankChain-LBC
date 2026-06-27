@@ -125,12 +125,10 @@ Node NFT is different from LifeID. LifeID is a soulbound identity credential and
 Possible node categories:
 
 ```text
-GLOBAL_NODE
-COUNTRY_NODE
 REGIONAL_NODE
 CITY_NODE
-COMMUNITY_NODE
-PARTNER_NODE
+PROMOTION_NODE
+MEMBER_SALES_NODE
 ```
 
 Possible metadata fields:
@@ -138,6 +136,8 @@ Possible metadata fields:
 ```text
 nodeId
 nodeCategory
+deploymentUnitId
+parentNodeId
 nodeRegion
 nodeCountry
 nodeLevel
@@ -621,7 +621,7 @@ LifeID = non-transferable identity credential
 Node NFT = transferable node ownership or node operation asset
 ```
 
-Node NFT may represent node ownership, node operation rights, node-level ecosystem participation, regional expansion rights, partner node rights, or node-related reward and settlement eligibility.
+Node NFT may represent node ownership, node operation rights, node-level ecosystem participation, regional deployment rights, or node-related reward and settlement eligibility.
 
 ### Design Positioning
 
@@ -670,15 +670,13 @@ Rationale:
 Recommended node categories:
 
 ```text
-GLOBAL_NODE
-COUNTRY_NODE
 REGIONAL_NODE
 CITY_NODE
-COMMUNITY_NODE
-PARTNER_NODE
+PROMOTION_NODE
+MEMBER_SALES_NODE
 ```
 
-These categories can support regional expansion, partner participation, community development, and future incentive design.
+These categories support the standard node deployment hierarchy: Regional Node -> City Node -> Promotion Node -> Member Sales Node.
 
 ### Node Status Model
 
